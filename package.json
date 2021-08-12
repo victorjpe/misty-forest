@@ -1,0 +1,22 @@
+{
+  "name": "su",
+  "version": "1.0.0",
+  "description": "The su file",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "keywords": [
+    "git"
+  ],
+  "author": "victorjpe",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "git-cz": "^4.7.6"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/.bin/gitcz"
+    }
+  }
+}
