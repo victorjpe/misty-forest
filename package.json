@@ -4,7 +4,7 @@
   "description": "The su file",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test",
+    "test": "test",
     "commit": "cz"
   },
   "keywords": [
