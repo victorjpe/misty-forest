@@ -4,7 +4,8 @@
   "description": "The su file",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test"
+    "test": "npm run test",
+    "commit": "cz"
   },
   "keywords": [
     "git"
@@ -12,11 +13,12 @@
   "author": "victorjpe",
   "license": "UNLICENSED",
   "devDependencies": {
+    "commitizen": "^4.2.4",
     "git-cz": "^4.7.6"
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/.bin/gitcz"
+      "path": "./node_modules/cz-conventional-changelog"
     }
   }
 }
