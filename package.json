@@ -14,11 +14,12 @@
   "license": "UNLICENSED",
   "devDependencies": {
     "commitizen": "^4.2.4",
+    "cz-conventional-changelog-emoji": "^0.1.0",
     "git-cz": "^4.7.6"
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
+      "path": "./node_modules/cz-conventional-changelog-emoji"
     }
   }
 }
